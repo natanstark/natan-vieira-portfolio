@@ -1,0 +1,76 @@
+*{
+    background-color: var(--cor-background-escuro);
+    color: var(--cor-texto-claro);
+}
+
+*::selection {
+    background: var(--cor-background-claro);
+    color: var(--cor-texto-escuro);
+}
+
+body{
+    margin: 8px;
+}
+
+.work__container{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.work__text--container{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+}
+
+.work__title{
+    margin-top: 40vh;
+    font-family: var(--fonte-secundaria);
+    font-size: 10vh;
+    margin-bottom: 4vh;
+}
+
+.work__text{
+    max-width: 500px;
+    letter-spacing: .5px;
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+.work__projects--container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: left;
+}
+
+.work-projects__list--item{
+    font-family: var(--fonte-secundaria);
+    /* Adiciona uma transição suave de 0.3 segundos para a propriedade font-style */
+    transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
+    font-family: var(--fonte-secundaria);
+    display: block;
+    position: relative;
+    font-size: 4vw;
+    max-width: 40vw;
+    line-height: 0.95em;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 4vh;
+}
+
+.work-projects__list--item:hover{
+    font-style: italic;
+    transform: translate(5px);
+    
+}
