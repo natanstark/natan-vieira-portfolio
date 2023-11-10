@@ -70,7 +70,7 @@
 
 .page-links__list--item {
     font-family: var(--fonte-secundaria);
-    /* Adicione uma transição suave de 0.3 segundos para a propriedade font-style */
+    /* Adiciona uma transição suave de 0.3 segundos para a propriedade font-style */
     transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
     font-family: var(--fonte-secundaria);
     display: block;
