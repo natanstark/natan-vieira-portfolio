@@ -12,13 +12,25 @@ body{
     margin: 8px;
 }
 
+.work-main__container{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.work__container,
+.work__projects--container {
+    flex: 1; /* Faz as duas divs ocuparem uma porção igual do espaço disponível */
+    max-width: 50%; /* Garante que cada div tenha no máximo 50% da largura */
+    box-sizing: border-box; /* Inclui a largura da borda e do preenchimento no cálculo da largura */
+}
+
 .work__container{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
-    
+    flex-wrap: wrap
     
 }
 
@@ -28,7 +40,7 @@ body{
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-    position: fixed;
+    
 }
 
 .work__title{
@@ -48,10 +60,11 @@ body{
 
 .work__projects--container{
     margin-top: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    text-align: left;
+      
+}
+
+.work-projects__list{
+    display: block;
 }
 
 .work-projects__list--item{
@@ -66,11 +79,20 @@ body{
     line-height: 0.95em;
     font-weight: 300;
     text-align: left;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 }
 
 .work-projects__list--item:hover{
     font-style: italic;
     transform: translate(5px);
     
+}
+
+.projects__list--description{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-self: flex-end;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 4vh;
 }
