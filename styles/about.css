@@ -1,3 +1,7 @@
+body{
+    margin: 8px;
+}
+
 .side-bar{
     color: var(--cor-texto-escuro);
     font-family:var(--fonte-primaria);
@@ -67,6 +71,7 @@
     padding-left: 10%;
     padding-right: 5%;
     position: relative;
+    margin-bottom: 20vh;
 }
 
 
@@ -109,6 +114,14 @@
     margin-right: 2em;
 }
 
+#quote-text{
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+    font-size: 2.3vw;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
 .about__profile-image{
     width: 50%;
     margin-top: 2em;
@@ -116,4 +129,20 @@
     display: block;
     
     
+}
+
+.resume__link{
+    color: var(--cor-texto-claro);
+    background: var(--cor-background-escuro);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 22px;
+    
+    padding: 0.5em 2em;
+    border-radius: 4em;
+    transition: padding .25s ease-in-out;
+}
+
+.resume__link:hover{
+    padding: 0.5em 4em;
 }

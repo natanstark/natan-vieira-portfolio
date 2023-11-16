@@ -3,6 +3,11 @@
     color: var(--cor-texto-claro);
 }
 
+*::selection{
+    background: #eee7e1;
+    color: #1a1919;
+}
+
 body{
     margin: 8px;
 
@@ -54,3 +59,10 @@ body{
     margin-bottom: 10px;
 }
 
+.resume__pdf--link{
+    margin-bottom: 2vh;
+}
+
+.resume__pdf--link:hover{
+    text-decoration-line: line-through;
+}
