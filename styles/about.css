@@ -2,6 +2,17 @@ body{
     margin: 8px;
 }
 
+#overlay-about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-background-escuro);
+    z-index: 1000;
+    transition: transform .5s ease-in-out;
+}
+
 .side-bar{
     color: var(--cor-texto-escuro);
     font-family:var(--fonte-primaria);
@@ -129,6 +140,13 @@ body{
     display: block;
     
     
+}
+
+.about__text--subtitle{
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 1em;
 }
 
 .resume__link{

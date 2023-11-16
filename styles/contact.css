@@ -15,6 +15,17 @@ body{
     margin: 8px;
 }
 
+#overlay-contact{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-background-claro);
+    z-index: 1000;
+    transition: transform .5s ease-in-out;
+}
+
 .side-bar{
     color:var(--cor-texto-claro);
 }
