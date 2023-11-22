@@ -13,6 +13,7 @@
 
 body{
     margin: 8px;
+    overflow-y: auto;
 }
 
 #overlay-contact{
